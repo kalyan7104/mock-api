@@ -1,0 +1,28 @@
+{
+  "doctors": [
+    {
+      "id": "D001",
+      "name": "Dr. Smith",
+      "email": "drsmith@example.com",
+      "password": "1234"
+    }
+  ],
+  "patients": [
+    {
+      "id": "P001",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "abcd"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "A001",
+      "doctorId": "D001",
+      "patientId": "P001",
+      "date": "2025-08-01",
+      "time": "10:00 AM",
+      "status": "confirmed"
+    }
+  ]
+}
