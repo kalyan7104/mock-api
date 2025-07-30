@@ -4,10 +4,9 @@
   "description": "Mock API for healthcare app using JSON Server",
   "main": "server.js",
   "scripts": {
-   "start": "json-server --host 0.0.0.0 --watch db.json --port $PORT"
-
+    "start": "json-server --host 0.0.0.0 --watch db.json --port $PORT"
   },
   "dependencies": {
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.4"
   }
 }
